@@ -14,8 +14,6 @@ supports the following:
 * Low battery warning.
 * AUX operated on/off switch
 
-The function and orientation configuration is fixed for now but later it should be able to be set via the UI or CLI..
-
 In the future, if someone codes it, they could be used to show GPS navigation status, thrust levels, RSSI, etc.
 Lots of scope for ideas and improvements.
 
@@ -69,6 +67,10 @@ so the Vin MAX should be 4.7v (3.3v / 0.7 = 4.71v).  Some LEDs are more tolerant
 
 ## Configuration
 
+UI:
+
+
+CLI:
 Enable the `LED_STRIP` feature via the cli:
 
 ```
